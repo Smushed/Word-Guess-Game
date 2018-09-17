@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="css" href="assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
+
+    <h1>Animals of Africa Hangman!</h1>
+    <h2 id="show-last-answer"></h2>
+    <img id="last-answer-image">
+    <h2>Wins: <span id="win-text"></span></h2>
+    <h2>Losses: <span id="loss-text"></span></h2>
+    <h2 id="word-to-guess"></h2>
+    <h2 id="wrong-answers"></h2>
+    <h2>Guesses Remaining: <span id="lives-remaining"></span></h2>
     <!-- WHile the word has not been guessed -->
     <!-- Show the player their progress -->
     <!-- Get the guess from the player -->
@@ -20,5 +30,6 @@
             <!-- Update the guess box and tick down the guesses -->
     <!-- if player guesses the whole word -->
         <!-- congradulations! -->
+    <script src="assets/javascript/game.js"></script>
 </body>
 </html>
