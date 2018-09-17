@@ -1,0 +1,14 @@
+/* Whole Website Style */
+body{
+    background-image: url("../images/background.jpg");
+    background-size: 1980px 1080px;
+    background-repeat: no-repeat;
+}
+
+.game {
+    background: rgba(253, 253, 253, 0.692);
+}
+#last-answer-image {
+    width: 348px;
+    height: 348px;
+}
