@@ -9,9 +9,6 @@ body{
 .game {
     background: rgba(253, 253, 253, 0.692);
 }
-#last-answer-image {
-
-}
 /* Header */
 .main-header {
     text-align: center;
@@ -37,5 +34,4 @@ body{
 #last-answer-image {
     margin-bottom: 50px;
     width: 100%;
-    height: ;
 }
