@@ -3,12 +3,39 @@ body{
     background-image: url("../images/background.jpg");
     background-size: 1980px 1080px;
     background-repeat: no-repeat;
+    font-family: 'Ruslan Display', 'Luckiest Guy', cursive, Arial, Helvetica;
 }
 
 .game {
     background: rgba(253, 253, 253, 0.692);
 }
 #last-answer-image {
-    width: 348px;
-    height: 348px;
+
+}
+/* Header */
+.main-header {
+    text-align: center;
+    font-size: 100px;
+}
+.sub-header {
+    text-align: center;
+    font-size: 52px;
+}
+/* Game Box */
+.game {
+    margin-top: 100px;
+}
+#show-last-answer {
+    margin-top: 50px;
+}
+#word-to-guess {
+    margin-top: 50px;
+}
+#wrong-answers {
+    height: 38px;
+}
+#last-answer-image {
+    margin-bottom: 50px;
+    width: 100%;
+    height: ;
 }
